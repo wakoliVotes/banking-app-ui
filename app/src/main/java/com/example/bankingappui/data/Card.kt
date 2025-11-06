@@ -6,6 +6,6 @@ data class Card(
     val cartType: String,
     val cardNumber: String,
     val cardName: String,
-    val balance: String,
+    val balance: Int,
     val color: Brush
 )
