@@ -44,7 +44,7 @@ val cards = listOf(
     Card(
         "MASTER CARD",
         "3588 4590 1209 9673",
-        "Saving",
+        "Savings",
         408344,
         getGradient(BlueStart, Blue)
     ),

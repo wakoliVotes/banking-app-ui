@@ -33,9 +33,7 @@ fun WalletSection() {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Column(
-
-        ) {
+        Column {
             Text(
                 text = "Wallet",
                 fontSize = 17.sp,

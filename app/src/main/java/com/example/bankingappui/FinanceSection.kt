@@ -63,7 +63,6 @@ fun FinanceSection(){
             fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(16.dp)
         )
-
         LazyRow {
             items(financeList.size) {
                 FinanceItem(it)
@@ -71,8 +70,6 @@ fun FinanceSection(){
         }
     }
 }
-
-
 
 @Composable
 fun FinanceItem(
