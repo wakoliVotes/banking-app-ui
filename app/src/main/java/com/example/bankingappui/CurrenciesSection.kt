@@ -215,8 +215,8 @@ fun CurrenciesSection() {
 }
 
 
-    @Composable
-    fun CurrencyItem(index: Int, width: Dp) {
+@Composable
+fun CurrencyItem(index: Int, width: Dp) {
         val currency = currencies[index]
 
         Row(
@@ -237,7 +237,6 @@ fun CurrenciesSection() {
                     tint = Color.White
                 )
             }
-
             Text(
                 modifier = Modifier.padding(start = 10.dp),
                 text = currency.name,
@@ -246,7 +245,6 @@ fun CurrenciesSection() {
                 color = MaterialTheme.colorScheme.onBackground,
                 textAlign = TextAlign.End
             )
-
             Text(
                 modifier = Modifier
                     .width(width)
@@ -258,4 +256,4 @@ fun CurrenciesSection() {
                 textAlign = TextAlign.End
             )
         }
-    }
+}
